@@ -26,8 +26,8 @@ export default {
       </form>
       <label for="rua" class="forget">Rua</label>
       <input type="text" v-model="endereco.logradouro" />
-      <label for="num" class="forget">Numero</label>
-      <input type="text" v-model="endereco.numero" />
+      <label for="num" class="forget">Cidade</label>
+      <input type="text" v-model="endereco.localidade" />
       <label for="bairro" class="forget">Bairro</label>
       <input type="text" v-model="endereco.bairro" />
     </div>
